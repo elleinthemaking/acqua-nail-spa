@@ -1,0 +1,115 @@
+{
+  "label": "Nail service menu",
+  "heading": "Everything",
+  "heading_italic": "à la carte",
+  "intro": "Enhancements, add ons, polish changes, kids, massage, waxing and facial, all at value prices.",
+  "sections": [
+    {
+      "title": "Nail Enhancement & Extension",
+      "note": "Cuticle & nail nourishment care included",
+      "highlight": false,
+      "two_columns": false,
+      "items": [
+        { "name": "G Hybrid Gel New Set", "price": "$70" },
+        { "name": "G Hybrid Gel Refill", "price": "$60" },
+        { "name": "Gel X", "price": "$65" },
+        { "name": "Gel Builder New Set", "price": "$65" },
+        { "name": "Gel Builder Refill", "price": "$55" },
+        { "name": "Dip With Tip", "price": "$60" },
+        { "name": "Dip Without Tip", "price": "$55" }
+      ]
+    },
+    {
+      "title": "Add Ons",
+      "note": "",
+      "highlight": false,
+      "two_columns": false,
+      "items": [
+        { "name": "Design (2 nails)", "price": "$8" },
+        { "name": "Repair", "price": "$7" },
+        { "name": "Cut Down", "price": "$5" },
+        { "name": "Design All Fingers", "price": "$30+" },
+        { "name": "French Design", "price": "$10" }
+      ]
+    },
+    {
+      "title": "Polish Change",
+      "note": "",
+      "highlight": false,
+      "two_columns": false,
+      "items": [
+        { "name": "Nail Polish Change", "price": "$15" },
+        { "name": "Toes Polish Change", "price": "$18" },
+        { "name": "French Nails Polish Change", "price": "$18" },
+        { "name": "French Toes Polish Change", "price": "$20" },
+        { "name": "Gel Polish Change Nails", "price": "$30" },
+        { "name": "Gel Polish Change Toes", "price": "$35" },
+        { "name": "Acrylic Gel Polish Change", "price": "$32" }
+      ]
+    },
+    {
+      "title": "Removal",
+      "note": "",
+      "highlight": false,
+      "two_columns": false,
+      "items": [
+        { "name": "Nail Take Off with Service", "price": "$10+" },
+        { "name": "Nail Take Off Only", "price": "$18" }
+      ]
+    },
+    {
+      "title": "Kids",
+      "note": "Under 12",
+      "highlight": false,
+      "two_columns": false,
+      "items": [
+        { "name": "Kid Mani", "price": "$17" },
+        { "name": "Kid Pedi", "price": "$28" },
+        { "name": "Kid Mani × Pedi", "price": "$40" },
+        { "name": "Kid Gel Manicure", "price": "$26" },
+        { "name": "Kid Gel Pedicure", "price": "$36" }
+      ]
+    },
+    {
+      "title": "Muscle Revival Spa Massage",
+      "note": "",
+      "highlight": true,
+      "two_columns": false,
+      "items": [
+        { "name": "15 min · hands to elbows", "price": "$25" },
+        { "name": "30 min · hands to elbows", "price": "$40" },
+        { "name": "15 min · feet to knees", "price": "$30" },
+        { "name": "30 min · feet to knees", "price": "$45" }
+      ]
+    },
+    {
+      "title": "Waxing",
+      "note": "",
+      "highlight": false,
+      "two_columns": true,
+      "items": [
+        { "name": "Eyebrow", "price": "$15" },
+        { "name": "Lip", "price": "$10" },
+        { "name": "Chin", "price": "$15" },
+        { "name": "Under Arm", "price": "$25" },
+        { "name": "Half Arm", "price": "$25" },
+        { "name": "Full Arm", "price": "$45" },
+        { "name": "Side Burn", "price": "$15" },
+        { "name": "Half Leg", "price": "$35" },
+        { "name": "Full Leg", "price": "$60" },
+        { "name": "Chest", "price": "$45" },
+        { "name": "Full Back", "price": "$60" },
+        { "name": "Full Face", "price": "$45" }
+      ]
+    },
+    {
+      "title": "Facial",
+      "note": "",
+      "highlight": false,
+      "two_columns": false,
+      "items": [
+        { "name": "Face Lift", "price": "$80" }
+      ]
+    }
+  ]
+}

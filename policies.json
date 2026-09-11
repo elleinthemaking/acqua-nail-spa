@@ -1,0 +1,12 @@
+{
+  "label": "Please note",
+  "heading": "For everyone's safety",
+  "heading_italic": "and the best results",
+  "items": [
+    { "title": "Appointments & arrivals", "text": "Please arrive on time. A late arrival may result in a shorter service time. If you are more than 15 minutes late, we may need to reschedule your appointment." },
+    { "title": "Health & safety", "text": "For your safety, please let us know if you have any health conditions, allergies, or are taking any medications. We reserve the right to refuse service if we feel it may be unsafe." },
+    { "title": "Cancellation policy", "text": "Please give us at least 24 hours notice if you need to cancel or reschedule. Cancellations with less than 24 hours notice may be subject to a cancellation fee." },
+    { "title": "Price & service changes", "text": "Prices are subject to change without notice. We reserve the right to refuse service to anyone for any reason." },
+    { "title": "Payments", "text": "We accept cash, credit/debit cards, and other approved payment methods. Please inform us of any issues with your payment at the time of service." }
+  ]
+}

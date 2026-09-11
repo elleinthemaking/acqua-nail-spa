@@ -1,0 +1,11 @@
+{
+  "label": "Our nail work",
+  "heading": "Done by",
+  "heading_italic": "our hands",
+  "intro": "Recent sets from the studio. Every one shaped, polished and finished with non toxic nail care.",
+  "photos": [
+    { "image": "/images/work-1.jpg", "caption": "Almond gel set" },
+    { "image": "/images/work-2.jpg", "caption": "Gel mani and pedi with design" },
+    { "image": "/images/work-3.jpg", "caption": "Gel manicure" }
+  ]
+}

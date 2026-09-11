@@ -1,0 +1,53 @@
+{
+  "site_title": "Acqua Nail Spa",
+  "site_description": "Acqua Nail Spa, a non toxic nail salon in Germantown, MD. Signature R³ manicures and pedicures, gel enhancements, waxing and facials.",
+  "logo": "/images/logo.jpg",
+  "booking_url": "https://acquanails6210.simplepos.us",
+  "phone": "(301) 540-8581",
+  "address_line1": "19732A Germantown Rd",
+  "address_line2": "Germantown, MD 20874",
+  "hours": [
+    { "days": "Mon to Fri", "time": "10:00 am to 7:00 pm" },
+    { "days": "Saturday", "time": "10:00 am to 6:00 pm" },
+    { "days": "Sunday", "time": "11:00 am to 5:00 pm" }
+  ],
+  "hero": {
+    "badge": "A non toxic nail salon",
+    "title_start": "Pampered from",
+    "title_italic": "fingertips",
+    "title_end": "to toes",
+    "tagline": "Relax · Recharge · Rejuvenate",
+    "book_button": "Book Now",
+    "card_title": "Curated Packages",
+    "card_subtitle": "For the perfect nail spa experience",
+    "card_button": "See packages",
+    "corner_title": "Nail Service Menu",
+    "corner_subtitle": "Full price list"
+  },
+  "pillars": [
+    { "title": "Relax", "text": "Warm herbal eye masks, gentle nail care and a hushed room. The first breath out." },
+    { "title": "Recharge", "text": "Exfoliating scrubs, detoxifying mud and acupressure fusion massage to bring skin and circulation back to life." },
+    { "title": "Rejuvenate", "text": "Collagen spa treatments, warm mittens and a private, never shared pedicure bit set. The full ritual." }
+  ],
+  "sip": {
+    "label": "Complimentary",
+    "heading": "Sip",
+    "heading_italic": "and relax",
+    "text": "Every visit comes with something warm or cool in hand, on us.",
+    "items": [
+      { "icon": "☕", "name": "Coffee" },
+      { "icon": "🍵", "name": "Tea" },
+      { "icon": "🥤", "name": "Coke" },
+      { "icon": "💧", "name": "Water" }
+    ]
+  },
+  "footer": {
+    "heading": "We appreciate your trust and look forward to",
+    "heading_italic": "pampering you.",
+    "text": "Your feedback helps us grow and provide the best experience possible. Please leave us a review, follow us on social media, and ask our staff about our loyalty rewards program.",
+    "book_button": "Book online",
+    "packages_button": "View packages",
+    "motto": "Relax · Recharge · Rejuvenate",
+    "tag": "Non toxic nail care"
+  }
+}

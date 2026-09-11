@@ -1,0 +1,48 @@
+{
+  "label": "Signature packages",
+  "heading": "Choose your",
+  "heading_italic": "ritual",
+  "intro": "Every tier is built on the same foundation: cuticle & nail nourishment care, natural nail shaping and polish, all with non toxic nail care. Go higher for more time, more warmth, more renewal.",
+  "compare_label": "Compare our services",
+  "compare_note": "A la carte services available at value prices.",
+  "featured_badge": "The full ritual",
+  "pedicure": {
+    "tiers": [
+      { "code": "R0", "name": "Quick Refresh", "price": 39, "featured": false },
+      { "code": "R1", "name": "Relax", "price": 59, "featured": false },
+      { "code": "R2", "name": "Relax · Recharge", "price": 89, "featured": false },
+      { "code": "R3", "name": "Relax · Recharge · Rejuvenate", "price": 105, "featured": true }
+    ],
+    "services": [
+      { "name": "Cuticle & nail nourishment care", "value": "$20", "r3": true, "r2": true, "r1": true, "r0": true },
+      { "name": "Natural nail shaping", "value": "$10", "r3": true, "r2": true, "r1": true, "r0": true },
+      { "name": "Polish", "value": "$15", "r3": true, "r2": true, "r1": true, "r0": true },
+      { "name": "Soothing warmth herbal eye mask", "value": "$5", "r3": true, "r2": true, "r1": true, "r0": false },
+      { "name": "Non burning callus remover", "value": "$10", "r3": true, "r2": true, "r1": true, "r0": false },
+      { "name": "Detoxifying & hydrating mud mask", "value": "$10", "r3": true, "r2": true, "r1": false, "r0": false },
+      { "name": "Dead skin scrub exfoliation", "value": "$10", "r3": true, "r2": true, "r1": false, "r0": false },
+      { "name": "Soothing warm herbal shoulder patch", "value": "$8", "r3": true, "r2": true, "r1": false, "r0": false },
+      { "name": "Collagen foot spa", "value": "$20", "r3": true, "r2": false, "r1": false, "r0": false },
+      { "name": "No sharing pedicure bit set", "value": "$60", "r3": true, "r2": false, "r1": false, "r0": false },
+      { "name": "Acupressure fusion spa massage", "value": "$20 / 10 min", "r3": true, "r2": true, "r1": true, "r0": true }
+    ]
+  },
+  "manicure": {
+    "tiers": [
+      { "code": "R1", "name": "Relax", "price": 25, "featured": false },
+      { "code": "R2", "name": "Relax · Recharge", "price": 49, "featured": false },
+      { "code": "R3", "name": "Relax · Recharge · Rejuvenate", "price": 69, "featured": true }
+    ],
+    "services": [
+      { "name": "Cuticle & nail nourishment care", "value": "$20", "r3": true, "r2": true, "r1": true },
+      { "name": "Natural nail shaping", "value": "$10", "r3": true, "r2": true, "r1": true },
+      { "name": "Polish", "value": "$15", "r3": true, "r2": true, "r1": true },
+      { "name": "Dead skin scrub exfoliation", "value": "$10", "r3": true, "r2": true, "r1": false },
+      { "name": "Detoxifying & hydrating mud mask", "value": "$10", "r3": true, "r2": false, "r1": false },
+      { "name": "Soothing warm herbal shoulder patch", "value": "$8", "r3": true, "r2": false, "r1": false },
+      { "name": "Warm mittens", "value": "$10", "r3": true, "r2": false, "r1": false },
+      { "name": "Collagen hand spa", "value": "$15", "r3": true, "r2": false, "r1": false },
+      { "name": "Acupressure fusion spa massage", "value": "$20 / 10 min", "r3": true, "r2": true, "r1": true }
+    ]
+  }
+}

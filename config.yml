@@ -1,0 +1,231 @@
+# Decap CMS configuration for Acqua Nail Spa
+# ONE THING TO EDIT: replace YOUR-GITHUB-USERNAME below with the GitHub username
+# that owns the repository (keep the /acqua-nail-spa part).
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/acqua-nail-spa
+  branch: main
+  commit_messages:
+    update: "Update {{collection}} from the admin page"
+    uploadMedia: "Add photo {{path}}"
+    deleteMedia: "Remove photo {{path}}"
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+logo_url: "/images/logo.jpg"
+display_url: "/"
+
+collections:
+  - name: "site"
+    label: "Website"
+    files:
+
+      # ---------------- SALON INFO ----------------
+      - name: "general"
+        label: "Salon info, hours & wording"
+        file: "content/general.json"
+        fields:
+          - { label: "Site title (browser tab)", name: "site_title", widget: "string" }
+          - { label: "Search description", name: "site_description", widget: "text" }
+          - { label: "Logo", name: "logo", widget: "image" }
+          - { label: "Online booking link", name: "booking_url", widget: "string", hint: "Every Book Now button opens this link." }
+          - { label: "Phone number", name: "phone", widget: "string" }
+          - { label: "Address line 1", name: "address_line1", widget: "string" }
+          - { label: "Address line 2", name: "address_line2", widget: "string" }
+          - label: "Hours"
+            name: "hours"
+            widget: "list"
+            summary: "{{fields.days}}: {{fields.time}}"
+            fields:
+              - { label: "Days", name: "days", widget: "string" }
+              - { label: "Time", name: "time", widget: "string" }
+          - label: "Top of page (hero)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Small badge above the headline", name: "badge", widget: "string" }
+              - { label: "Headline, first part", name: "title_start", widget: "string" }
+              - { label: "Headline, italic word", name: "title_italic", widget: "string" }
+              - { label: "Headline, last part", name: "title_end", widget: "string" }
+              - { label: "Tagline pill", name: "tagline", widget: "string" }
+              - { label: "Book button text", name: "book_button", widget: "string" }
+              - { label: "Corner card title", name: "card_title", widget: "string" }
+              - { label: "Corner card subtitle", name: "card_subtitle", widget: "string" }
+              - { label: "Corner card button", name: "card_button", widget: "string" }
+              - { label: "Menu card title", name: "corner_title", widget: "string" }
+              - { label: "Menu card subtitle", name: "corner_subtitle", widget: "string" }
+          - label: "Three pillars (Relax, Recharge, Rejuvenate)"
+            name: "pillars"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+          - label: "Sip and relax section"
+            name: "sip"
+            widget: "object"
+            fields:
+              - { label: "Small label", name: "label", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Heading, italic part", name: "heading_italic", widget: "string" }
+              - { label: "Text", name: "text", widget: "string" }
+              - label: "Drinks"
+                name: "items"
+                widget: "list"
+                summary: "{{fields.icon}} {{fields.name}}"
+                fields:
+                  - { label: "Emoji", name: "icon", widget: "string" }
+                  - { label: "Name", name: "name", widget: "string" }
+          - label: "Bottom of page (footer)"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Heading, italic part", name: "heading_italic", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Book button text", name: "book_button", widget: "string" }
+              - { label: "Packages button text", name: "packages_button", widget: "string" }
+              - { label: "Motto (bottom line)", name: "motto", widget: "string" }
+              - { label: "Small tag next to the motto", name: "tag", widget: "string" }
+
+      # ---------------- PACKAGES ----------------
+      - name: "packages"
+        label: "Packages & prices"
+        file: "content/packages.json"
+        fields:
+          - { label: "Small label", name: "label", widget: "string" }
+          - { label: "Heading", name: "heading", widget: "string" }
+          - { label: "Heading, italic part", name: "heading_italic", widget: "string" }
+          - { label: "Intro text", name: "intro", widget: "text" }
+          - { label: "Compare table button text", name: "compare_label", widget: "string" }
+          - { label: "Note under the compare table", name: "compare_note", widget: "string" }
+          - { label: "Badge on the top package", name: "featured_badge", widget: "string" }
+          - label: "Pedicure"
+            name: "pedicure"
+            widget: "object"
+            fields:
+              - label: "Pedicure packages (lowest to highest)"
+                name: "tiers"
+                widget: "list"
+                allow_add: false
+                summary: "{{fields.code}} {{fields.name}} ${{fields.price}}"
+                fields:
+                  - { label: "Code (R0, R1, R2 or R3)", name: "code", widget: "string" }
+                  - { label: "Package name", name: "name", widget: "string" }
+                  - { label: "Price (numbers only)", name: "price", widget: "number", value_type: "int", min: 0 }
+                  - { label: "Highlight as the top package", name: "featured", widget: "boolean", default: false }
+              - label: "Pedicure services (tick which packages include each one)"
+                name: "services"
+                widget: "list"
+                summary: "{{fields.name}} ({{fields.value}})"
+                fields:
+                  - { label: "Service name", name: "name", widget: "string" }
+                  - { label: "A la carte value, e.g. $20", name: "value", widget: "string", required: false }
+                  - { label: "Included in R3", name: "r3", widget: "boolean", default: true }
+                  - { label: "Included in R2", name: "r2", widget: "boolean", default: false }
+                  - { label: "Included in R1", name: "r1", widget: "boolean", default: false }
+                  - { label: "Included in R0", name: "r0", widget: "boolean", default: false }
+          - label: "Manicure"
+            name: "manicure"
+            widget: "object"
+            fields:
+              - label: "Manicure packages (lowest to highest)"
+                name: "tiers"
+                widget: "list"
+                allow_add: false
+                summary: "{{fields.code}} {{fields.name}} ${{fields.price}}"
+                fields:
+                  - { label: "Code (R1, R2 or R3)", name: "code", widget: "string" }
+                  - { label: "Package name", name: "name", widget: "string" }
+                  - { label: "Price (numbers only)", name: "price", widget: "number", value_type: "int", min: 0 }
+                  - { label: "Highlight as the top package", name: "featured", widget: "boolean", default: false }
+              - label: "Manicure services (tick which packages include each one)"
+                name: "services"
+                widget: "list"
+                summary: "{{fields.name}} ({{fields.value}})"
+                fields:
+                  - { label: "Service name", name: "name", widget: "string" }
+                  - { label: "A la carte value, e.g. $20", name: "value", widget: "string", required: false }
+                  - { label: "Included in R3", name: "r3", widget: "boolean", default: true }
+                  - { label: "Included in R2", name: "r2", widget: "boolean", default: false }
+                  - { label: "Included in R1", name: "r1", widget: "boolean", default: false }
+
+      # ---------------- MENU ----------------
+      - name: "menu"
+        label: "A la carte menu"
+        file: "content/menu.json"
+        fields:
+          - { label: "Small label", name: "label", widget: "string" }
+          - { label: "Heading", name: "heading", widget: "string" }
+          - { label: "Heading, italic part", name: "heading_italic", widget: "string" }
+          - { label: "Intro text", name: "intro", widget: "text" }
+          - label: "Menu sections"
+            name: "sections"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Section title", name: "title", widget: "string" }
+              - { label: "Small note under the title", name: "note", widget: "string", required: false }
+              - { label: "Gold highlight card", name: "highlight", widget: "boolean", default: false }
+              - { label: "Show prices in two columns", name: "two_columns", widget: "boolean", default: false }
+              - label: "Services"
+                name: "items"
+                widget: "list"
+                summary: "{{fields.name}} {{fields.price}}"
+                fields:
+                  - { label: "Service", name: "name", widget: "string" }
+                  - { label: "Price, e.g. $25 or $30+", name: "price", widget: "string" }
+
+      # ---------------- PHOTOS ----------------
+      - name: "gallery"
+        label: "Our Work photos"
+        file: "content/gallery.json"
+        fields:
+          - { label: "Small label", name: "label", widget: "string" }
+          - { label: "Heading", name: "heading", widget: "string" }
+          - { label: "Heading, italic part", name: "heading_italic", widget: "string" }
+          - { label: "Intro text", name: "intro", widget: "text" }
+          - label: "Photos"
+            name: "photos"
+            widget: "list"
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: "Photo (tall photos look best)", name: "image", widget: "image" }
+              - { label: "Caption", name: "caption", widget: "string" }
+
+      # ---------------- REVIEWS ----------------
+      - name: "reviews"
+        label: "Reviews"
+        file: "content/reviews.json"
+        fields:
+          - { label: "Small label", name: "label", widget: "string" }
+          - { label: "Heading", name: "heading", widget: "string" }
+          - { label: "Heading, italic part", name: "heading_italic", widget: "string" }
+          - { label: "Where the reviews come from (Yelp or Google)", name: "source_name", widget: "select", options: ["Yelp", "Google"] }
+          - { label: "Link to your reviews page", name: "source_url", widget: "string", required: false }
+          - { label: "Button text", name: "button", widget: "string" }
+          - label: "Reviews"
+            name: "reviews"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Reviewer name", name: "name", widget: "string" }
+              - { label: "City", name: "location", widget: "string", required: false }
+              - { label: "Stars (1 to 5)", name: "stars", widget: "number", value_type: "int", min: 1, max: 5, default: 5 }
+              - { label: "Review text", name: "text", widget: "text" }
+
+      # ---------------- POLICIES ----------------
+      - name: "policies"
+        label: "Policies"
+        file: "content/policies.json"
+        fields:
+          - { label: "Small label", name: "label", widget: "string" }
+          - { label: "Heading", name: "heading", widget: "string" }
+          - { label: "Heading, italic part", name: "heading_italic", widget: "string" }
+          - label: "Policies"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }

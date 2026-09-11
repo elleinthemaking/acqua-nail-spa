@@ -1,0 +1,16 @@
+{
+  "label": "Guest reviews",
+  "heading": "What our",
+  "heading_italic": "guests say",
+  "source_name": "Yelp",
+  "source_url": "",
+  "button": "Read all on Yelp",
+  "reviews": [
+    { "name": "Carla B.", "location": "Gaithersburg, MD", "stars": 5, "text": "I love the staff and the talented work they do. I've come here multiple times for gel manicures/pedicures and every time I leave very happy with how my nails look! I've started to bring others in my family here. I took my youngest sister who was graduating high school to another place and they messed up her full set horrendously! Came here to get it fixed and you could tell right away they know what they're doing. They take their time and deliver amazing results always. I'm never going somewhere else again." },
+    { "name": "Lisa C.", "location": "Germantown, MD", "stars": 5, "text": "I have been going here for years. Friendly professional services. They always make you feel welcomed and you receive high quality gentle services every time!" },
+    { "name": "Ciera M.", "location": "Germantown, MD", "stars": 5, "text": "This was my first time here and I'm so impressed!!!\n\nThe salon that I had been going to for 5+ years, started to go downhill. My nails would peel (gel polish) literally after 3 to 4 days. And to keep going back to get them fixed was becoming a bit frustrating.\n\nSo I gave Acqua a try! And WOW. Kim did my nails, took her time and did an amazing job!!!!\n\nShe made sure each nail was to perfection. I've literally just been looking at my nails constantly and cannot believe how great they look! I will definitely go back!!!" },
+    { "name": "Yelp Reviewer", "location": "", "stars": 5, "text": "Every time I get my nails done here I'm so happy. They are kind, thorough, and do a fantastic job. I highly recommend them!" },
+    { "name": "Christina M.", "location": "Germantown, MD", "stars": 5, "text": "I was looking for a new nail salon as I had a horrible experience at V Nail Salon in Germantown. Aqua Nails was so much better and I am glad I found them. David did my nails and was very gentle and thorough. He did not rush and gave special attention to care for my hands. He was knowledgeable and friendly which was a bonus.\nI originally walked in a little after opening on a Sunday and they were to capacity. They asked if I can comeback at 1:00pm, and took my name and number down. When I returned they were ready for me. It is a small shop, but clean and peaceful. I like the fact they were not packed out the door, but every seat was full." },
+    { "name": "Yelp Reviewer", "location": "", "stars": 5, "text": "I went here for a gel manicure, called a few hours before and they fit me in. Definitely call in advance, as it is usually busy. Nail technician was nice and conversational, but not forcing conversation. My nails looked great then, but it's three weeks later, and they're still perfect! No chipping, no peeling, just growing out. This is strictly natural nails, not acrylic. Gel manicure is $33. I say well worth it! Also, walkable within Germantown Town Center, meaning you can get restaurant food/groceries while you're in the plaza. Definitely recommend!" }
+  ]
+}
