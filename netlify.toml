@@ -1,0 +1,10 @@
+# Netlify settings: this is a plain static site, nothing to build.
+[build]
+  publish = "."
+  command = ""
+
+# Never cache the content files, so edits from the admin page show up immediately.
+[[headers]]
+  for = "/content/*"
+  [headers.values]
+    Cache-Control = "no-cache"
