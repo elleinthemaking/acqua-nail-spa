@@ -3,7 +3,7 @@
 # that owns the repository (keep the /acqua-nail-spa part).
 backend:
   name: github
-  repo: elleinthemakinf/acqua-nail-spa
+  repo: elleinthemaking/acqua-nail-spa
   branch: main
   commit_messages:
     update: "Update {{collection}} from the admin page"
