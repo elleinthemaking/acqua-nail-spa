@@ -2,7 +2,7 @@
   "label": "Nail service menu",
   "heading": "Everything",
   "heading_italic": "à la carte",
-  "intro": "Enhancements, add ons, polish changes, kids, massage, waxing and facial, all at value prices.",
+  "intro": "Enhancements, add ons, polish changes, kids, massage, waxing and facials, all at value prices.",
   "sections": [
     {
       "title": "Nail Enhancement & Extension",
@@ -10,13 +10,34 @@
       "highlight": false,
       "two_columns": false,
       "items": [
-        { "name": "G Hybrid Gel New Set", "price": "$70" },
-        { "name": "G Hybrid Gel Refill", "price": "$60" },
-        { "name": "Gel X", "price": "$65" },
-        { "name": "Gel Builder New Set", "price": "$65" },
-        { "name": "Gel Builder Refill", "price": "$55" },
-        { "name": "Dip With Tip", "price": "$60" },
-        { "name": "Dip Without Tip", "price": "$55" }
+        {
+          "name": "G Hybrid Gel New Set",
+          "price": "$70"
+        },
+        {
+          "name": "G Hybrid Gel Refill",
+          "price": "$60"
+        },
+        {
+          "name": "Gel X",
+          "price": "$65"
+        },
+        {
+          "name": "Gel Builder New Set",
+          "price": "$65"
+        },
+        {
+          "name": "Gel Builder Refill",
+          "price": "$55"
+        },
+        {
+          "name": "Dip With Tip",
+          "price": "$60"
+        },
+        {
+          "name": "Dip Without Tip",
+          "price": "$55"
+        }
       ]
     },
     {
@@ -25,11 +46,26 @@
       "highlight": false,
       "two_columns": false,
       "items": [
-        { "name": "Design (2 nails)", "price": "$8" },
-        { "name": "Repair", "price": "$7" },
-        { "name": "Cut Down", "price": "$5" },
-        { "name": "Design All Fingers", "price": "$30+" },
-        { "name": "French Design", "price": "$10" }
+        {
+          "name": "Design (2 nails)",
+          "price": "$8"
+        },
+        {
+          "name": "Repair",
+          "price": "$7"
+        },
+        {
+          "name": "Cut Down",
+          "price": "$5"
+        },
+        {
+          "name": "Design All Fingers",
+          "price": "$30+"
+        },
+        {
+          "name": "French Design",
+          "price": "$10"
+        }
       ]
     },
     {
@@ -38,13 +74,34 @@
       "highlight": false,
       "two_columns": false,
       "items": [
-        { "name": "Nail Polish Change", "price": "$15" },
-        { "name": "Toes Polish Change", "price": "$18" },
-        { "name": "French Nails Polish Change", "price": "$18" },
-        { "name": "French Toes Polish Change", "price": "$20" },
-        { "name": "Gel Polish Change Nails", "price": "$30" },
-        { "name": "Gel Polish Change Toes", "price": "$35" },
-        { "name": "Acrylic Gel Polish Change", "price": "$32" }
+        {
+          "name": "Nail Polish Change",
+          "price": "$15"
+        },
+        {
+          "name": "Toes Polish Change",
+          "price": "$18"
+        },
+        {
+          "name": "French Nails Polish Change",
+          "price": "$18"
+        },
+        {
+          "name": "French Toes Polish Change",
+          "price": "$20"
+        },
+        {
+          "name": "Gel Polish Change Nails",
+          "price": "$30"
+        },
+        {
+          "name": "Gel Polish Change Toes",
+          "price": "$35"
+        },
+        {
+          "name": "Acrylic Gel Polish Change",
+          "price": "$32"
+        }
       ]
     },
     {
@@ -53,8 +110,14 @@
       "highlight": false,
       "two_columns": false,
       "items": [
-        { "name": "Nail Take Off with Service", "price": "$10+" },
-        { "name": "Nail Take Off Only", "price": "$18" }
+        {
+          "name": "Nail Take Off with Service",
+          "price": "$10+"
+        },
+        {
+          "name": "Nail Take Off Only",
+          "price": "$18"
+        }
       ]
     },
     {
@@ -63,11 +126,26 @@
       "highlight": false,
       "two_columns": false,
       "items": [
-        { "name": "Kid Mani", "price": "$17" },
-        { "name": "Kid Pedi", "price": "$28" },
-        { "name": "Kid Mani × Pedi", "price": "$40" },
-        { "name": "Kid Gel Manicure", "price": "$26" },
-        { "name": "Kid Gel Pedicure", "price": "$36" }
+        {
+          "name": "Kid Mani",
+          "price": "$17"
+        },
+        {
+          "name": "Kid Pedi",
+          "price": "$28"
+        },
+        {
+          "name": "Kid Mani × Pedi",
+          "price": "$40"
+        },
+        {
+          "name": "Kid Gel Manicure",
+          "price": "$26"
+        },
+        {
+          "name": "Kid Gel Pedicure",
+          "price": "$36"
+        }
       ]
     },
     {
@@ -76,10 +154,22 @@
       "highlight": true,
       "two_columns": false,
       "items": [
-        { "name": "15 min · hands to elbows", "price": "$25" },
-        { "name": "30 min · hands to elbows", "price": "$40" },
-        { "name": "15 min · feet to knees", "price": "$30" },
-        { "name": "30 min · feet to knees", "price": "$45" }
+        {
+          "name": "15 min · hands to elbows",
+          "price": "$25"
+        },
+        {
+          "name": "30 min · hands to elbows",
+          "price": "$40"
+        },
+        {
+          "name": "15 min · feet to knees",
+          "price": "$30"
+        },
+        {
+          "name": "30 min · feet to knees",
+          "price": "$45"
+        }
       ]
     },
     {
@@ -88,27 +178,158 @@
       "highlight": false,
       "two_columns": true,
       "items": [
-        { "name": "Eyebrow", "price": "$15" },
-        { "name": "Lip", "price": "$10" },
-        { "name": "Chin", "price": "$15" },
-        { "name": "Under Arm", "price": "$25" },
-        { "name": "Half Arm", "price": "$25" },
-        { "name": "Full Arm", "price": "$45" },
-        { "name": "Side Burn", "price": "$15" },
-        { "name": "Half Leg", "price": "$35" },
-        { "name": "Full Leg", "price": "$60" },
-        { "name": "Chest", "price": "$45" },
-        { "name": "Full Back", "price": "$60" },
-        { "name": "Full Face", "price": "$45" }
+        {
+          "name": "Eyebrow",
+          "price": "$15"
+        },
+        {
+          "name": "Lip",
+          "price": "$10"
+        },
+        {
+          "name": "Chin",
+          "price": "$15"
+        },
+        {
+          "name": "Under Arm",
+          "price": "$25"
+        },
+        {
+          "name": "Half Arm",
+          "price": "$25"
+        },
+        {
+          "name": "Full Arm",
+          "price": "$45"
+        },
+        {
+          "name": "Side Burn",
+          "price": "$15"
+        },
+        {
+          "name": "Half Leg",
+          "price": "$35"
+        },
+        {
+          "name": "Full Leg",
+          "price": "$60"
+        },
+        {
+          "name": "Chest",
+          "price": "$45"
+        },
+        {
+          "name": "Full Back",
+          "price": "$60"
+        },
+        {
+          "name": "Full Face",
+          "price": "$45"
+        }
       ]
     },
     {
-      "title": "Facial",
-      "note": "",
+      "title": "Spa Facial Services",
+      "note": "Results driven facials with high quality, natural skin care products",
       "highlight": false,
       "two_columns": false,
       "items": [
-        { "name": "Face Lift", "price": "$80" }
+        {
+          "name": "Basic Facial · 45 min",
+          "price": "$69"
+        },
+        {
+          "name": "Custom Facial · 60 min",
+          "price": "$89"
+        },
+        {
+          "name": "Antioxidant Anti Aging Facial · 60 min",
+          "price": "$89"
+        },
+        {
+          "name": "O2 Oxygenating Facial · 60 min",
+          "price": "$89"
+        },
+        {
+          "name": "Back Facial · 75 min",
+          "price": "$110"
+        },
+        {
+          "name": "The Signature V (Vajacial) · 30 to 50 min",
+          "price": "$99"
+        }
+      ]
+    },
+    {
+      "title": "Advanced Skin Treatments",
+      "note": "Healthy skin, radiant glow",
+      "highlight": false,
+      "two_columns": false,
+      "items": [
+        {
+          "name": "Dermaplaning Facial · 75 min",
+          "price": "$149"
+        },
+        {
+          "name": "Stem Cell Facial · 75 min",
+          "price": "$149"
+        },
+        {
+          "name": "Anti Aging Collagen Booster Facial · 75 min",
+          "price": "$149"
+        },
+        {
+          "name": "Hydrate Facial · 75 min",
+          "price": "$149"
+        },
+        {
+          "name": "Pore (Acne) Clear Facial · 90 min",
+          "price": "$149"
+        },
+        {
+          "name": "Pore Clear package · 3 sessions",
+          "price": "$400"
+        },
+        {
+          "name": "Microdermabrasion Facial · 60 min",
+          "price": "$119"
+        },
+        {
+          "name": "Microdermabrasion package · 6 sessions",
+          "price": "$570"
+        },
+        {
+          "name": "Pigment Control Facial · 90 min",
+          "price": "$249"
+        },
+        {
+          "name": "Pigment Control package · 3 sessions",
+          "price": "$700"
+        },
+        {
+          "name": "Pore Therapy Clarifying Facial · 90 min",
+          "price": "$249"
+        },
+        {
+          "name": "Pore Therapy package · 3 sessions",
+          "price": "$700"
+        },
+        {
+          "name": "Superficial Chemical Peel · 75 min",
+          "price": "$199"
+        },
+        {
+          "name": "Chemical Peel package · 3 sessions",
+          "price": "$500"
+        },
+        {
+          "name": "Dermaplane & Peel Combo, The Ultimate Glow · 75 min",
+          "price": "$235"
+        },
+        {
+          "name": "Dermaplane Add On",
+          "price": "$35"
+        }
       ]
     }
   ]
