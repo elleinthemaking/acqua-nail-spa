@@ -236,27 +236,33 @@
       "items": [
         {
           "name": "Basic Facial · 45 min",
-          "price": "$69"
+          "price": "$69",
+          "description": "Refresh, cleanse, revive. Steam cleanse, exfoliation, facial massage, customized masque and treatment application."
         },
         {
           "name": "Custom Facial · 60 min",
-          "price": "$89"
+          "price": "$89",
+          "description": "A thorough professional skin analysis determines a customized treatment that targets your specific skin concerns and goals."
         },
         {
           "name": "Antioxidant Anti Aging Facial · 60 min",
-          "price": "$89"
+          "price": "$89",
+          "description": "Vitamin C and stem cells hydrate and resurface inflamed, dehydrated and textured skin. Improves elasticity, firmness and radiance."
         },
         {
           "name": "O2 Oxygenating Facial · 60 min",
-          "price": "$89"
+          "price": "$89",
+          "description": "Stem cells, peptides and enzymatic botanicals with an oxygen detox masque, leaving skin luminous, refreshed and rejuvenated."
         },
         {
           "name": "Back Facial · 75 min",
-          "price": "$110"
+          "price": "$110",
+          "description": "A relaxing massage combined with multifunctional exfoliation to reduce texture and congestion on the upper and lower back."
         },
         {
           "name": "The Signature V (Vajacial) · 30 to 50 min",
-          "price": "$99"
+          "price": "$99",
+          "description": "Double cleanse, enzyme scrub, ingrown extractions, high frequency, soothing masques and brightening serum. Helps prevent ingrown hairs and soothes irritation."
         }
       ]
     },
@@ -268,67 +274,83 @@
       "items": [
         {
           "name": "Dermaplaning Facial · 75 min",
-          "price": "$149"
+          "price": "$149",
+          "description": "Gently removes dead skin cells and fine facial hair, followed by deep cleansing, a calming mask, facial massage and hydration."
         },
         {
           "name": "Stem Cell Facial · 75 min",
-          "price": "$149"
+          "price": "$149",
+          "description": "Deep cleansing, gentle enzyme exfoliation, relaxing massage, stem cell and hyaluronic infused treatments, plus LED light therapy."
         },
         {
           "name": "Anti Aging Collagen Booster Facial · 75 min",
-          "price": "$149"
+          "price": "$149",
+          "description": "A luxurious collagen focused facial for tired, aging skin. Restores softness, elasticity and a youthful glow."
         },
         {
           "name": "Hydrate Facial · 75 min",
-          "price": "$149"
+          "price": "$149",
+          "description": "An intensive moisture treatment with deep cleansing, gentle exfoliation and concentrated serum infusion for fresh, dewy skin."
         },
         {
           "name": "Pore (Acne) Clear Facial · 90 min",
-          "price": "$149"
+          "price": "$149",
+          "description": "Ionized oxygen targets acne causing bacteria while replenishing essential moisture for cleaner pores and a balanced complexion."
         },
         {
           "name": "Pore Clear package · 3 sessions",
-          "price": "$400"
+          "price": "$400",
+          "description": "Three Pore Clear facials at a package price."
         },
         {
           "name": "Microdermabrasion Facial · 60 min",
-          "price": "$119"
+          "price": "$119",
+          "description": "Diamond tip microdermabrasion gently exfoliates the skin's surface to reveal a smoother, brighter complexion."
         },
         {
           "name": "Microdermabrasion package · 6 sessions",
-          "price": "$570"
+          "price": "$570",
+          "description": "Six Microdermabrasion facials at a package price."
         },
         {
           "name": "Pigment Control Facial · 90 min",
-          "price": "$249"
+          "price": "$249",
+          "description": "Targets dark spots, sun damage and uneven skin tone while restoring radiance, with collagen support."
         },
         {
           "name": "Pigment Control package · 3 sessions",
-          "price": "$700"
+          "price": "$700",
+          "description": "Three Pigment Control facials at a package price."
         },
         {
           "name": "Pore Therapy Clarifying Facial · 90 min",
-          "price": "$249"
+          "price": "$249",
+          "description": "Deeply cleanses, refreshes and rebalances the complexion for cleaner looking pores and a refreshed glow."
         },
         {
           "name": "Pore Therapy package · 3 sessions",
-          "price": "$700"
+          "price": "$700",
+          "description": "Three Pore Therapy facials at a package price."
         },
         {
           "name": "Superficial Chemical Peel · 75 min",
-          "price": "$199"
+          "price": "$199",
+          "description": "A customized chemical peel selected for your skin concerns. Exfoliates, brightens and reduces pigmentation and fine lines."
         },
         {
           "name": "Chemical Peel package · 3 sessions",
-          "price": "$500"
+          "price": "$500",
+          "description": "Three Chemical Peels at a package price."
         },
         {
           "name": "Dermaplane & Peel Combo, The Ultimate Glow · 75 min",
-          "price": "$235"
+          "price": "$235",
+          "description": "Dermaplaning plus a customized chemical peel for enhanced exfoliation and a noticeably smoother, brighter appearance."
         },
         {
           "name": "Dermaplane Add On",
-          "price": "$35"
+          "price": "$35",
+          "description": "Add dermaplaning to any other facial for extra smoothness and enhanced treatment benefits."
         }
       ]
     }
