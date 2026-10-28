@@ -105,7 +105,7 @@
         <h3>${esc(sec.title)}</h3>
         ${sec.note ? `<p class="menu__hint">${esc(sec.note)}</p>` : ''}
         <ul class="price-list${sec.two_columns ? ' price-list--two' : ''}">
-          ${(sec.items || []).map((it) => `<li><span>${esc(it.name)}</span><b>${esc(it.price)}</b></li>`).join('')}
+          ${(sec.items || []).map((it) => `<li><span>${esc(it.name)}</span><b>${esc(it.price)}</b>${it.description ? `<small class="price-list__desc">${esc(it.description)}</small>` : ''}</li>`).join('')}
         </ul>
       </div>`).join('');
   }
